@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Weather App</h1>
+        </header>
+        <main>
+            <div class="input-group">
+                <input type="text" id="locationInput" class="form-control" placeholder="Enter location/ZIP code)">
+                <div class="input-group-append">
+                    <button id="getWeatherBtn" class="btn btn-primary" type="button">Get Weather</button>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="unitSelect">Select Unit:</label>
+                <select id="unitSelect" class="form-control">
+                    <option value="metric">Celsius</option>
+                    <option value="imperial">Fahrenheit</option>
+                </select>
+            </div>
+            <button id="geolocationBtn" class="btn btn-secondary">Use My Location</button>
+            <div id="weatherDisplay" class="weather-card"></div>
+            <div id="errorDisplay" class="error-card"></div>
+        </main>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

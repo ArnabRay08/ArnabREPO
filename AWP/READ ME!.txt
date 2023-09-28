@@ -1,0 +1,7 @@
+Api key for https://www.openweathermap.com = 3192c1b402e655d6cb7206a27ed143c9
+
+The weather app is complete and functional, which some cool hover effects for the user to dicover and the geolocation works after you have given location and then clicked on geo locate.
+
+thank you,
+
+Arnab Ray.
